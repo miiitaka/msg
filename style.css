@@ -5,10 +5,12 @@ html {
 }
 
 body {
+  font-size: 1.4rem;
   margin: 0;
 }
 
 h1 {
+  cursor: pointer;
   margin: 0;
 }
 
