@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>ITパスポート試験：R04春</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>ITパスポート試験：R04春</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="../script.js"></script>
+</head>
+<body>
+  <main>
+    <h1>ITパスポート試験：R04春</h1>
     <section>
       <h1>第1問</h1>
       <dl>
         <dt>問題の内容</dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
@@ -18,56 +23,56 @@
         <dt>
           <p>４マス＝テレビ・新聞・ラジオ・雑誌</p>
         </dt>
-        <dd>答え：イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第3問</h1>
       <dl>
         <dt>４マス＝テレビ・新聞・ラジオ・雑誌</dt>
-        <dd>答え：ウ</dd>
+        <dd data-ans="ウ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第4問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第5問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第6問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ウ</dd>
+        <dd data-ans="ウ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第7問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第8問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第9問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>
       <p>cはウイルス作成罪</p>
     </section>
@@ -75,14 +80,14 @@
       <h1>第10問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第11問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>
       <p>400+300+600+200=1500</p>
       <p>1500-400（現金回収分）=1100</p>
@@ -93,7 +98,7 @@
       <h1>第12問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
       <p>CMPFIRE・ReadyForなどなど</p>
     </section>
@@ -101,14 +106,14 @@
       <h1>第13問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第14問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>
       <p>CDなどのようにピチー！ってなっている包装</p>
     </section>
@@ -116,21 +121,21 @@
       <h1>第15問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第16問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第17問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ウ</dd>
+        <dd data-ans="ウ"><button class="btn">答え</button></dd>
       </dl>
       <p>Bring Your Own Device</p>
     </section>
@@ -138,7 +143,7 @@
       <h1>第18問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>
       <p>IoT / AI / ビッグデータ</p>
     </section>
@@ -146,15 +151,38 @@
       <h1>第19問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>
     </section>
     <section>
       <h1>第20問</h1>
       <dl>
         <dt></dt>
-        <dd>答え：イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>
     </section>
+    <section>
+      <h1>第21問</h1>
+      <dl>
+        <dt></dt>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
+      </dl>
+    </section>
+    <section>
+      <h1>第22問</h1>
+      <dl>
+        <dt></dt>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
+      </dl>
+      <p>SCM（Supply Chain Management）</p>
+      <p>Supply（供給）Demand（需要）</p>
+      <ol class="katakana">
+        <li>SWOT（Strength Weakness Opportunity Threat）の話</li>
+        <li>正解！</li>
+        <li>バリューチェーン分析</li>
+        <li>PPM分析</li>
+      </ol>
+    </section>
+  </main>
   </body>
 </html>
